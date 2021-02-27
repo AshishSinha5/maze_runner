@@ -52,3 +52,9 @@ Maze 1             |          Maze 2 |                   Maze 3
 
 ## References
 <a id = "1">[1]</a>Reinforcement Learning: An Introduction, R. Sutton, and A. Barto., The MIT Press, Second edition, (2018)
+
+## Appendix
+### SARSA (on policy TD control) to estimate action-value function
+```
+Algoithm Parameters : step size &#945;
+```
