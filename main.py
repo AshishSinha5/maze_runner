@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser.add_argument("-g", "--gamma", help="Gamma value for TD-SARSA algorithm", default=0.9, type=float)
     parser.add_argument("-n", "--num_trials", help="Number of trials/episodes", default=50000, type=int)
     args = parser.parse_args()
-    maze_file =args.file_path
+    maze_file = args.file_path
     eps = args.epsilon
     alpha = args.alpha
     gamma = args.gamma
